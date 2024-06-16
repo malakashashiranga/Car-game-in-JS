@@ -1,0 +1,127 @@
+.hide{display: none;}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #d4d15b;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0%;
+    padding: 0%;    
+}
+.car{
+    width: 60px;
+    height: 80px;
+    left: 43%;
+    position: absolute;
+    bottom: 0px;
+    background-image: url('img/car.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+.enemyCar{
+    width: 60px;
+    height: 80px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 1;
+    transform: rotate(180deg);
+}
+.roadLines{
+    width: 10px;
+    height: 100%;
+    position: absolute;
+    background: white;
+    margin-left: 195px;  
+}
+.mid_line {
+    background-color: #e0e0e0;
+    height: 100%;
+    width: 10px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.l_sub_line,
+.r_sub_line {
+    background: linear-gradient(to bottom, #e0e0e0 50%, transparent 50%);
+    background-size: 100% 50px;
+    background-position: center;
+    height: 100%;
+    width: 3px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+.l_sub_line {
+    left: calc(50% - 25%);
+}
+.r_sub_line {
+    left: calc(50% + 25%);
+}
+.road{
+    width: 420px;
+    height: 100vh;
+    background: #303030;
+    margin: auto;
+    position: relative;
+    overflow: hidden;   
+}
+.score_bar{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    background: rgb(0, 107, 146);
+    color: white;
+    font-size: 28px;
+}
+.greeting{
+    position: absolute;
+    background-color: #25ba04;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    margin: auto; 
+}
+#para{
+    font-size: 28px;
+    animation: blink 2s infinite alternate;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+@keyframes blink {          /*To blink the #para */
+    0% {opacity: 1;}
+    80%{opacity: 1;}
+    100% {opacity: 0;}
+}
+.start{
+    padding: 5px;
+    width: 80px;
+    border-radius: 10px;
+    text-decoration-color: #000;   
+}
+#box{
+    padding: 8px;
+    margin-bottom: 10px;
+}
+.gameOver{
+    position: absolute;
+    background-color: #c30000;
+    color:#ffffff;
+    font-size: 28px;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    margin: auto; 
+}   
