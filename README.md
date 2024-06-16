@@ -14,20 +14,24 @@ A simple car racing game where you control a car to dodge incoming obstacles. Th
 ## How to Play
 
 1. **Enter Your Name**: Type your name in the provided input box and press Enter.
-<img src="screenshots/enter_name.png" alt="Enter Name" width="400"/>
+<img src="screenshots/enter_name.png" alt="Enter Name" width="800"/>
+<br><br>
 
 3. **Start the Game**: Use the left and right arrow keys to maneuver your car and avoid collisions with oncoming cars.
-<img src="screenshots/game_in.png" alt="Game In Progress" width="400"/>
+<img src="screenshots/game_in.png" alt="Game In Progress" width="800"/>
+<br><br>
    
 5. **Game Over**: If your car collides with another car, the game ends.
-<img src="screenshots/game_out.png" alt="Game Over" width="400"/>
+<img src="screenshots/game_out.png" alt="Game Over" width="800"/>
+<br><br>
 
 7. **Download Score**: After the game ends, download your score as a text file with your name.
-<img src="screenshots/game_score.png" alt="Game Score" width="400"/>
+<img src="screenshots/game_score.png" alt="Game Score" width="800"/>
+<br><br>
 
 ## Installation
 
-Clone the repository and open `index.html` in your web browser to play the game locally.
+Clone the repository and open `main.html` in your web browser to play the game locally.
 
 ```bash
 git clone https://github.com/malakashashiranga/Car-game-in-JS.git
